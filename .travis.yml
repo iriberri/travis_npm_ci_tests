@@ -5,6 +5,8 @@ language: node_js
 node_js: "10.13"
 
 install:
+- npm install
+- cat package-lock.json
 - npm ci
 
 
