@@ -1,1 +1,14 @@
+sudo: required
 
+language: node_js
+
+node_js: "10.13"
+
+install:
+- npm ci
+
+
+script:
+- ls -al
+- ls -al "$HOME/.npm"
+- ls -al node_modules
