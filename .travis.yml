@@ -5,7 +5,9 @@ language: node_js
 node_js: "10.13"
 
 install:
+- npm cache verify
 - npm ci
+- npm cache verify
 
 
 script:
