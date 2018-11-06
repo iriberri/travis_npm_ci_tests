@@ -2,6 +2,9 @@ sudo: required
 
 language: node_js
 
+cache:
+  npm: true
+
 node_js: "10.13"
 
 install:
